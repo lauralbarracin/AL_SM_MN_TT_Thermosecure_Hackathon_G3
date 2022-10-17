@@ -1,1 +1,6 @@
-# hackaton_G3
+# Hackaton_G3
+## Project Description 
+
+## Group Members
+
+## MIT License
