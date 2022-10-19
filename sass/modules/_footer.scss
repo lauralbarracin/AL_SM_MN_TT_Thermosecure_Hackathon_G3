@@ -1,0 +1,17 @@
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  background-color: $pantoneGreen;
+  color:white;
+  .left{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+  }
+  .right{
+    display: inline-block;
+    vertical-align: top;
+  }
+}

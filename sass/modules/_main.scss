@@ -87,7 +87,7 @@ main{
   }
 
   #features{
-    height: 700px;
+    height: 500px;
     color: $pantoneGreen;
     text-align: center;
     h3{
@@ -103,7 +103,7 @@ main{
       position: relative;
       img{
         width: 100px;
-        height:100px;
+        height:115px;
         position: absolute;
         left: 50%;
         top: 10%;
@@ -111,12 +111,56 @@ main{
       }
       p{
         position: absolute;
-        top: 50%;
+        top: 70%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%,-70%);
         width: 300px;
         text-align: center;
         margin: 0;
+      }
+    }
+  }
+
+  #toggleButtons{
+    height: 200px;
+    background-color: $pantoneGreen;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-evenly;
+    button{
+      height: max-content;
+      font-size: 25px;
+      padding: 20px;
+      border-radius: 10px;
+      border: none;
+      background-color: white;
+      align-self: center;
+      &:hover{
+        color: white;
+        cursor: pointer;
+        background-color: black;
+      }
+    }
+  }
+  //rest in toggleItems.scss
+
+  #temperature{
+    height:400px;
+    text-align: center;
+    color: $coolGray;
+    div {
+      display: flex;
+      justify-content: space-evenly;
+      .tempItem {
+        display: inline-block;
+
+        img {
+          display: block;
+          margin: 10px auto;
+          width: 30px;
+          height: 30px;
+        }
       }
     }
   }
