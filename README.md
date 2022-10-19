@@ -4,12 +4,21 @@
 ## Project Description 
 ThermoSecurity Thermostats are one alternative to control the temperature of your house anywhere! Available in many devices such as a computer, phone, tablet, smartwatch, or directly on the device attached to the wall, you have the power to make smart choices.
 Stay comfortable while you save energy (and the planet) wherever you are. 
+
 ## Group Collaborators 
 
 - Laura Albarracin - Front-End / Back-End Developer
 - Mariia Schevchenko - Front-End / Back- End Developer
 - Nathálya Menezes - Motion Designer
 - Tallyta Triolo - Web Designer 
+
+## Languages | Tools
+- HTML
+- CSS/ SASS
+- JavaScript
+
+- Database ( built in MySQL)
+- JSON object 
 
 ## Colours 
 - Gray: <br>
