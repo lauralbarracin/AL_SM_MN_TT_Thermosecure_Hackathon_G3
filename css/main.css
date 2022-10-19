@@ -46,6 +46,117 @@ nav #menuIcon {
 
 body {
   margin: 0;
+  font-family: "Co Text", serif;
+}
+
+main #banner {
+  position: relative;
+  height: 700px;
+}
+main #banner h1 {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  transform: translateY(-50%);
+}
+main #banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+main #whoAreWe {
+  background-color: #9EB7AD;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  color: white;
+}
+main #whoAreWe h1 {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-20%);
+  text-transform: uppercase;
+}
+main #whoAreWe p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 650px;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  text-align: center;
+}
+main #help {
+  background-color: white;
+  color: #9EB7AD;
+  height: 600px;
+  width: 100%;
+}
+main #help #leftImg {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  display: inline-block;
+  margin: 100px 40px;
+}
+main #help div {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 150px;
+  text-align: center;
+  width: calc(100% - 485px);
+}
+main #help div ul {
+  text-align: left;
+  margin-left: 50px;
+}
+main #simplify {
+  width: 100%;
+  height: 200px;
+  font-size: 52px;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  background-color: #9EB7AD;
+  color: white;
+  padding-top: 100px;
+}
+main #features {
+  height: 700px;
+  color: #9EB7AD;
+  text-align: center;
+}
+main #features h3 {
+  font-size: 25px;
+}
+main #features .panel {
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin: 10px;
+  position: relative;
+}
+main #features .panel img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -10%);
+}
+main #features .panel p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  text-align: center;
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
