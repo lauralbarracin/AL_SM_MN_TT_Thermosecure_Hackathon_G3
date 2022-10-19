@@ -145,8 +145,6 @@ main #features .panel {
   position: relative;
 }
 main #features .panel img {
-  width: 100px;
-  height: 115px;
   position: absolute;
   left: 50%;
   top: 10%;
@@ -205,11 +203,39 @@ main #productFeatures {
   background-color: #54565a;
   color: white;
   padding-top: 60px;
+  position: relative;
 }
 main #productFeatures h1 {
   width: 100%;
   text-align: center;
   margin: 0;
+}
+main #productFeatures ul {
+  font-size: 21px;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+main #productFeatures ul li {
+  margin: 20px 0;
+}
+main #techSpec {
+  height: 800px;
+  padding-top: 50px;
+}
+main #techSpec h1 {
+  margin: 0;
+  text-align: center;
+}
+main #techSpec ul {
+  list-style: none;
+  text-align: center;
+}
+main #techSpec ul li {
+  margin: 20px 0;
 }
 
 footer {
