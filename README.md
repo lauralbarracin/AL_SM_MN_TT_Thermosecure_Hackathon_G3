@@ -8,7 +8,7 @@ Stay comfortable while you save energy (and the planet) wherever you are.
 
 - Laura Albarracin - Front-End / Back-End Developer
 - Mariia Schevchenko - Front-End / Back- End Developer
-- Nathalya Menezes - Motion Designer
+- Nathálya Menezes - Motion Designer
 - Tallyta Triolo - Web Designer 
 
 ## Colours 
