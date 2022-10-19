@@ -10,7 +10,7 @@ Stay comfortable while you save energy (and the planet) wherever you are.
 - Laura Albarracin - Front-End / Back-End Developer
 - Mariia Schevchenko - Front-End / Back- End Developer
 - Nathálya Menezes - Motion Designer
-- Tallyta Triolo - Web Designer 
+- Tallyta Triolo - Graphic & Web Designer 
 
 ## Languages | Tools
 - HTML
@@ -39,11 +39,11 @@ Stay comfortable while you save energy (and the planet) wherever you are.
   **CMYK** 36 18 19 0<br>
   **Code** #A8BAC2<br>
 
-- Rose:<br>
-  **Pantone** 4755 C<br>
+- Dark Green<br>
+  **Pantone** 5545 C<br>
   **RGB** 213 194 184<br>
   **CMYK** 15 23 25 0<br>
-  **Code** #D5C2B8<br>
+  **Code** #4A675C<br>
 
 
 ## Typography 
