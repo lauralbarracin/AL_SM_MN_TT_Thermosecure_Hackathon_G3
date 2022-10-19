@@ -12,29 +12,29 @@ Stay comfortable while you save energy (and the planet) wherever you are.
 - Tallyta Triolo - Web Designer 
 
 ## Colours 
-- Gray 
-  **Pantone** 11C
-  **RGB** 84 86 90
-  **CMYK** 66 57 51 29
-  **Code** #54565A
+- Gray: <br>
+  **Pantone** 11C<br>
+  **RGB** 84 86 90<br>
+  **CMYK** 66 57 51 29<br>
+  **Code** #54565A<br>
 
-- Green 
-  **Pantone** 623 C
-  **RGB** 158 183 173
-  **CMYK** 42 16 33 00
-  **Code** #9EB7AD
+- Green:<br>
+  **Pantone** 623 C <br>
+  **RGB** 158 183 173 <br>
+  **CMYK** 42 16 33 00 <br>
+  **Code** #9EB7AD<br>
 
-- Blue
-  **Pantone** 7542 C
-  **RGB** 168 186 194 
-  **CMYK** 36 18 19 0
-  **Code** #A8BAC2
+- Blue:<br>
+  **Pantone** 7542 C<br>
+  **RGB** 168 186 194 <br>
+  **CMYK** 36 18 19 0<br>
+  **Code** #A8BAC2<br>
 
-- Rose 
-  **Pantone** 4755 C
-  **RGB** 213 194 184
-  **CMYK** 15 23 25 0
-  **Code** #D5C2B8
+- Rose:<br>
+  **Pantone** 4755 C<br>
+  **RGB** 213 194 184<br>
+  **CMYK** 15 23 25 0<br>
+  **Code** #D5C2B8<br>
 
 
 ## Typography 
