@@ -1,4 +1,6 @@
-# ThermoSecurity 
+# ThermoSecurity  
+<img src="./assets/logo_thermoSecure.svg" width="500" style="margin: 0 auto ">
+
 ## Project Description 
 ThermoSecurity Thermostats are one alternative to control the temperature of your house anywhere! Available in many devices such as a computer, phone, tablet, smartwatch, or directly on the device attached to the wall, you have the power to make smart choices.
 Stay comfortable while you save energy (and the planet) wherever you are. 
