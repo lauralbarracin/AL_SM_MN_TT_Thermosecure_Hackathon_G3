@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="//db.onlinewebfonts.com/c/0868d10695ff247c5f24effe746d96d2?family=Co+Text"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>ThermoSecure</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!--top navigation-->
+    <nav>
+      <img src="media/logo_thermoSecure.svg" alt="logo" id="logo" />
+      <button id="menuIcon">&#9776;</button>
+    </nav>
+    <div id="hiddenMenu">
+      <ul>
+        <li>Home</li>
+        <li>Accessibility</li>
+        <li>Product Plans</li>
+        <li>Installation</li>
+        <li>Log in</li>
+      </ul>
+    </div>
+    <!--/top navigation-->
+    <main>
+      <div id="banner">
+        <!-- <h1>ThermoSecurity : Save more than Energy</h1> -->
+        <picture>
+          <source
+            media="(min-width:768px)"
+            srcset="media/hero_image_1920x957.jpg"
+          />
+          <source
+            media="(min-width:600px)"
+            srcset="media/hero_image_768x992.jpg"
+          />
+          <img src="media/hero_image_390x782.jpg" alt="Banner" />
+        </picture>
+      </div>
+
+      <div id="whoAreWe">
+        <h1>Who are we?</h1>
+        <p>
+          HouseCom™ ThermoSecurity™ System is a fully digital, hardwired and
+          wireless (Wi-Fi, Bluetooth) enabled home personal and secure
+          environment control system.<br />
+          All communications with the central system are accessible and
+          controlled through the wall unit, product app and the secured portal
+          on the parent website. The HouseCom™ ThermoSecurity™ System App. is
+          available on both iOS and Android devices.
+        </p>
+      </div>
+
+      <div id="help">
+        <picture>
+          <source
+            media="(min-width:768px)"
+            srcset="media/product_livingroom_1920x900.jpg"
+          />
+          <source
+            media="(min-width:600px)"
+            srcset="media/product_livingroom_768x812.jpg"
+          />
+          <img src="media/product_livingroom_390x654.jpg" alt="Banner" />
+        </picture>
+
+        <!-- <img src="media/car.png" alt="car"> -->
+        <!-- <h2>Here for you - do you need HELP?</h2>
+        <p>Our product is easy to install and use, but if you need help we are here for helping you</p>
+        <h4>What’s included when you buy our product:</h4>
+        <ul>
+            <li>FAQ</li>
+            <li>Call a technician</li>
+            <li>Schedule a visit</li>
+            <li>Use our video links</li>
+            <li>Schedule a vide call with us</li>
+        </ul> -->
+      </div>
+
+      <h1 id="simplify">simplify your life with us</h1>
+
+      <div id="features">
+        <h3>Thermostat features</h3>
+
+        <div class="panel">
+          <img src="media/1st.png" alt="bookmark" />
+          <p>
+            Our thermostats learn your schedule to maximize savings without
+            compromising comfort and unlock lower energy rates.
+          </p>
+        </div>
+        <div class="panel">
+          <img src="media/2.png" alt="warning" width="150" height="123" />
+          <p>
+            Home’s well-being is our priority, even while you’re away, by being
+            alerted to events like sudden temperature drops or spikes that could
+            cause damage to your home.
+          </p>
+        </div>
+        <div class="panel">
+          <img src="media/3.png" alt="checkmark" />
+          <p>
+            Your Home Security System is also included. Our smart thermostat
+            doubles as a hub to monitor, detect and alert you to unexpected
+            activity.
+          </p>
+        </div>
+      </div>
+      <!--  Dynamic section  -->
+      <!--div id="toggleButtons">
+        <button id="accessibilityBtn">Accessibility</button>
+        <button id="productPlansBtn">Product Plans</button>
+        <button id="installationBtn">Installation</button>
+      </!--div>
+
+      <!--<div id="accessibility">
+        <!-- <h1>You can use it</h1>
+        <h3>With</h3> -->
+      <!--<div>
+            picture>
+            <source media="(min-width:768px)" srcset="media/mockup_devices_1920x900.jpg">
+            <source media="(min-width:600px)" srcset="media/mockup_devices_768x812.jpg">
+            <img src="media/mockup_devices_390x654.jpg" alt="Banner">
+            <!-- <img src="media/test.jpeg" alt="devices">
+            <img src="media/test.jpeg" alt="device"> -->
+      <!--</!--picture>
+        </div> 
+    </div>
+    -->
+      <main class="main container">
+        <section>
+          <section class="product-sect"></section>
+          <!--this is linked with JS-->
+          <section class="query-controls"></section>
+          <!--this is linked with JS-->
+        </section>
+      </main>
+      <!-- Templates don't get rendered, but their content will be -->
+      <template id="features-template">
+        <section>
+          <div>
+            <img src="" alt="product features" />
+          </div>
+          <h2 class="favorites">ThermoSecure Features</h2>
+          <!-- <-- h2 child 1 -->
+          <article class="things-description">The article</article>
+          <article class="things-description">The article</article>
+        </section>
+      </template>
+      <!--  /Dynamic section  -->
+
+      <div id="temperature">
+        <h1>TEMPERATURE MODE</h1>
+        <div>
+          <div class="tempItem">
+            <img src="media/icon01.png" alt="icon" />
+            <span>Leave home</span>
+          </div>
+          <div class="tempItem">
+            <img src="media/icon02.png" alt="icon" />
+            <span>Arive home</span>
+          </div>
+          <div class="tempItem">
+            <img src="media/icon03.png" alt="icon" />
+            <span>Go to bed</span>
+          </div>
+        </div>
+        <h1>SAFETY</h1>
+        <div>
+          <div class="tempItem">
+            <img src="media/icon04.png" alt="icon" />
+            <span>Temperature Alerts</span>
+          </div>
+          <div class="tempItem">
+            <img src="media/icon05.png" alt="icon" />
+            <span>Face Recognition</span>
+          </div>
+          <div class="tempItem">
+            <img src="media/icon06.png" alt="icon" />
+            <span>Video Recording</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="productFeatures">
+        <h1>Product features</h1>
+        <ul>
+          <li>
+            Proximity sensor: Actives system to on state when viewer is close.
+          </li>
+          <li>
+            Facial recognition camera: To allow admin users to manipulate
+            settings (child proofing)
+          </li>
+          <li>
+            GUI: The ability increase/decrease the temperature difference
+            between my heat/cool set-points.
+          </li>
+          <li>
+            Comes with built-in Amazon Alexa Voice Service Regulates indoor
+            humidity to prevent frost buildup onoutside windows.
+          </li>
+          <li>
+            The ability to view Current indoor temperature, outdoor temperature,
+            daily forecast, weekly forecast.
+          </li>
+        </ul>
+      </div>
+
+      <div id="techSpec">
+        <h1>Tech Specifications</h1>
+        <ul>
+          <li>
+            Dimensions & Weight <br />
+            3.3 in dia • 1.1 in H
+          </li>
+          <li>
+            Weight <br />
+            8.6 oz
+          </li>
+          <li>
+            Color & Material <br />
+            Stainless steel
+          </li>
+          <li>
+            Languages <br />
+            English, French, Dutch, Spanish, and Italian
+          </li>
+          <li>
+            Display <br />
+            24-bit color LCD
+          </li>
+          <li>
+            Sensors <br />
+            Temperature • Humidity • Face Recognition
+          </li>
+          <li>
+            Battery <br />
+            Rechargeable lithium-ion
+          </li>
+          <li>
+            Wireless <br />
+            802.11 a/b/g/n (2.4GHz/5GHz) Wi-Fi
+          </li>
+          <li>
+            Power Consumption <br />
+            Less than 1 kWh/month
+          </li>
+          <li>
+            Warranty <br />
+            Two-year limited warranty.
+          </li>
+          <li>
+            Compatibility <br />
+            Works with 95% of systems
+          </li>
+          <li>
+            Multi-home support <br />
+            Multi-zone homes: You can control up to 20 thermostats per home.
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <div class="left">
+        <h2>Do you need any help?</h2>
+        <h3>Contact us</h3>
+      </div>
+      <div class="right">
+        <h2>Phone</h2>
+        <h2>(266)503-74-59</h2>
+        <h2>thermosecure@gmail.com</h2>
+        <h2>Or find us here:</h2>
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1046.352293903079!2d-81.25007527796778!3d42.98277194597479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef3779e9706c1%3A0x6b0cea8bf906455!2sFanshawe%20Downtown%20Campus!5e0!3m2!1sen!2sca!4v1666181566240!5m2!1sen!2sca"
+          width="400"
+          height="150"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer type="module"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

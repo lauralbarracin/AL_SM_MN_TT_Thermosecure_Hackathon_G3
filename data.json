@@ -1,0 +1,31 @@
+{"items": [ 
+    {
+        "featuresList": {
+            "name":"Accesibility",
+            "description":"you can use it with Android and IOS",
+            "image":"mockup_devices_1920x900.jpg",
+            "price":"included in your purchase",
+            "id":"app_access_id"
+        }
+    },
+    {
+        "featuresList": {
+            "name":"Product Plans",
+            "description":"Two options. Free: One camera, motion detection, face recognition and alerts. Premium Service:All cameras included, saves videos evidence, motion detection, face recognition, alerts, know who is home",
+            "image":"mockup_smart_watch_1920x900.jpg",
+            "price":"Free is Free & Premium Service: (10 CAD/MONTH), lowest prices on the market today",
+            "id":"plans_id"
+        }
+    },
+    {
+        "featuresList": {
+            "name":"Installation",
+            "description":"40 minutes less than our competitors!ThermoSecurity is well-designed with high-quality materials and it is intuitive to manage. You just need 20 minutes to install and follow the video instructions.",
+            "image":"mockup_devices_1920x900.jpg",
+            "price":"$0",
+            "id":"installation_id"
+        }
+    }
+    
+]
+}

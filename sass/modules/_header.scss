@@ -1,0 +1,58 @@
+nav{
+  height: 100px;
+  // background-color: $pantone;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  #logo{
+    height: 70px;
+    margin-left: 10px;
+    align-self: center;
+  }
+  #menuIcon{
+    border: none;
+    background: none;
+    font-size: 50px;
+    align-self: center;
+    width: 50px;
+    color: $darkGreen;
+  }
+}
+
+#hiddenMenu{
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 45px;
+  background-color: transparent;
+  padding-top:100px;
+  transition: .3s ease-in-out;
+  opacity: 0;
+  color: $darkGreen;
+  &.toggle{
+    visibility: visible;
+    background-color: $pantoneGreen;
+    padding-top: 0;
+    opacity: 2;
+    z-index:2;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    li{
+      &:hover{
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.scrollOff{
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+}
