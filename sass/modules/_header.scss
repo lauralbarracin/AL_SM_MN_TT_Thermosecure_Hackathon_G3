@@ -1,11 +1,12 @@
 nav{
   height: 100px;
-  background-color: $pantone;
+  // background-color: $pantone;
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
   #logo{
-    height: 50px;
+    height: 70px;
+    margin-left: 10px;
     align-self: center;
   }
   #menuIcon{
@@ -14,6 +15,7 @@ nav{
     font-size: 50px;
     align-self: center;
     width: 50px;
+    color: $darkGreen;
   }
 }
 
@@ -21,18 +23,20 @@ nav{
   visibility: hidden;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 30%;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
+  line-height: 45px;
   background-color: transparent;
   padding-top:100px;
   transition: .3s ease-in-out;
   opacity: 0;
+  color: $darkGreen;
   &.toggle{
     visibility: visible;
-    background-color: rgba(168, 186, 194, 0.46);
+    background-color: $pantoneGreen;
     padding-top: 0;
-    opacity: 1;
+    opacity: 2;
     z-index:2;
   }
   ul{
