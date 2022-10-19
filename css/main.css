@@ -1,0 +1,51 @@
+nav {
+  height: 100px;
+  background-color: #D5C2B8;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+nav #logo {
+  height: 50px;
+  align-self: center;
+}
+nav #menuIcon {
+  border: none;
+  background: none;
+  font-size: 50px;
+  align-self: center;
+  width: 50px;
+}
+
+#hiddenMenu {
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 50px;
+  background-color: transparent;
+  padding-top: 100px;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
+#hiddenMenu.toggle {
+  visibility: visible;
+  background-color: rgba(168, 186, 194, 0.46);
+  padding-top: 0;
+  opacity: 1;
+}
+#hiddenMenu ul {
+  list-style: none;
+  padding: 0;
+}
+#hiddenMenu ul li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

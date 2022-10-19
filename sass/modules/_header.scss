@@ -1,0 +1,47 @@
+nav{
+  height: 100px;
+  background-color: $pantone;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  #logo{
+    height: 50px;
+    align-self: center;
+  }
+  #menuIcon{
+    border: none;
+    background: none;
+    font-size: 50px;
+    align-self: center;
+    width: 50px;
+  }
+}
+
+#hiddenMenu{
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 50px;
+  background-color: transparent;
+  padding-top:100px;
+  transition: .3s ease-in-out;
+  opacity: 0;
+  &.toggle{
+    visibility: visible;
+    background-color: rgba(168, 186, 194, 0.46);
+    padding-top: 0;
+    opacity: 1;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    li{
+      &:hover{
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
