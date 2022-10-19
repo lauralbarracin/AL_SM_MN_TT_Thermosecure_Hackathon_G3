@@ -7,7 +7,7 @@ main{
 
   #banner{
     position: relative;
-    height: 700px;
+    height: 957px;
     h1{
       position: absolute;
       top: 50%;
@@ -23,11 +23,12 @@ main{
   }
 
   #whoAreWe{
-    background-color: $pantoneGreen;
+    background-color: $darkGreen;
     height: 600px;
     width: 100%;
     position: relative;
     color: white;
+
     h1{
       position: absolute;
       top: 20%;
@@ -50,7 +51,7 @@ main{
   #help{
     background-color: white;
     color: $pantoneGreen;
-    height: 600px;
+    height: 900px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -58,10 +59,13 @@ main{
     align-items: center;
     justify-content: center;
     font-size: larger;
-      img{
-        width:30px;
-        height:30px;
-      }
+    
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
       ul{
         text-align: left;
         margin-left: 50px;
@@ -142,6 +146,7 @@ main{
     height:400px;
     text-align: center;
     color: $coolGray;
+    margin-top: 5%;
     div {
       display: flex;
       justify-content: space-evenly;
@@ -151,8 +156,8 @@ main{
         img {
           display: block;
           margin: 10px auto;
-          width: 30px;
-          height: 30px;
+          // width: 30px;
+          height: 50px;
         }
       }
     }
