@@ -11,6 +11,53 @@ Stay comfortable while you save energy (and the planet) wherever you are.
 - Nathalya Menezes - Motion Designer
 - Tallyta Triolo - Web Designer 
 
+## Colours 
+- Gray 
+  **Pantone** 11C
+  **RGB** 84 86 90
+  **CMYK** 66 57 51 29
+  **Code** #54565A
+
+- Green 
+  **Pantone** 623 C
+  **RGB** 158 183 173
+  **CMYK** 42 16 33 00
+  **Code** #9EB7AD
+
+- Blue
+  **Pantone** 7542 C
+  **RGB** 168 186 194 
+  **CMYK** 36 18 19 0
+  **Code** #A8BAC2
+
+- Rose 
+  **Pantone** 4755 C
+  **RGB** 213 194 184
+  **CMYK** 15 23 25 0
+  **Code** #D5C2B8
+
+
+## Typography 
+- Co Headline (regular | bold);
+- Nunito (light | Regular | Bold)
+
+
+## Design References 
+- [Google Nest](https://store.google.com/ca/category/nest_thermostats?hl=en-GB)
+- [Ecobee](https://www.ecobee.com/en-ca/)
+
+## Installation 
+- Installation is not needed
+
+## Contributing 
+
+Fork it!
+
+- Create your feature branch: git checkout -b my-new-feature
+- Commit your changes
+- Push to the branch: git push origin my-new-feature
+- Submit a pull request :D
+
 ## MIT License
 Copyright 2022 Laura Albarracin, Mariia Schevchenko, Nathálya Menezes and Tallyta Triolo
 
